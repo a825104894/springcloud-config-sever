@@ -4,14 +4,14 @@ spring:
 
 ---
 server:
-    port: 3344
+    port: 3355
 spring:
     profiles: test
     application:
         name: springcloud-config-test-client
 ---
 server:
-    port: 3344
+    port: 3356
 spring:
     profiles: dev
     application:
