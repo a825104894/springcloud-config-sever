@@ -1,0 +1,4 @@
+spring:
+    port: 8802
+    application:
+        name: springcloud-config-test-client
