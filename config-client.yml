@@ -1,4 +1,16 @@
 spring:
+    profiles:
+        active: test
+
+---
+spring:
+    profiles: test
     port: 8802
     application:
         name: springcloud-config-test-client
+---
+spring:
+    profiles: dev
+    port: 8803
+    application:
+        name: springcloud-config-dev-client
