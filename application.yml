@@ -4,13 +4,11 @@ spring:
     
 ---
 spring:
-  profiles:
-  - dev
+  profiles: dev
 server:
   port: 3355
 ---
 spring:
-  profiles:
-  - prod
+  profiles: prod
 server:
   port: 3356
